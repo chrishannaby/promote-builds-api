@@ -34,7 +34,7 @@ exports.handler = async function (event, context) {
         return {
           statusCode: 200,
           headers,
-          body: "hello world",
+          body: "hello world from test",
         };
       }
       /* GET /.netlify/functions/api/sites */
